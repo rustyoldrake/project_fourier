@@ -49,7 +49,9 @@ y = 100* signal.square(2 *np.pi * frequency * x / sampleRate ) #  scipy.signal.s
 wavfile.write('square.wav', sampleRate, y)  # play back on mac - afplay square.wav
 # ' afplay square.wav '' to te  st
 
+
 ####### square wave to A PLOT (NOTE X SCALE IS GOOFY HERE - ILLUSTRATIVE ONLY) - works*
-# t = np.linspace(0, length, sampleRate * length)
-# plt.plot(t, signal.square(2 * np.pi * 5 * t))
+t = np.linspace(0, length, sampleRate * length)
+plt.plot(t, signal.square(2 * np.pi * 5 * t))
 # plt.show() # NOTE X SCALE IS GOOFY HERE - ILLUSTRATIVE ONLY
+plt.savefig('square.png')
