@@ -24,8 +24,12 @@ fft_abs = abs(fft(data))
 freqs = fftfreq(total_samples,1/samplerate)
 
 # plot the frequencies
+# plt.plot(freqs[:limit], fft_abs[:limit])
+# plt.title("Frequency spectrum of %s" % wav_filename)
+# plt.xlabel('frequency in Hz')
+# plt.ylabel('amplitude')
+# plt.show()
+
+####### square wave to A PLOT (NOTE X SCALE IS GOOFY HERE - ILLUSTRATIVE ONLY) - works*
 plt.plot(freqs[:limit], fft_abs[:limit])
-plt.title("Frequency spectrum of %s" % wav_filename)
-plt.xlabel('frequency in Hz')
-plt.ylabel('amplitude')
-plt.show()
+plt.savefig('square_fft.png')
