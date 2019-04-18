@@ -13,3 +13,14 @@ If your smoke alarm or, in my case, water alarm goes off you want to know right 
 
 
 WARNING - THIS IS TERRIBLE HAMFISTY CODE - WORK IN PROGRESS (approach with care :)
+
+
+
+
+=====
+
+SciPy and NumPy MANY tools for FFT and DFT:
+SCIPY AND NUMPY Manuals (Beefy) -
+https://docs.scipy.org/doc/scipy-0.13.0/scipy-ref.pdf
+https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf
+https://docs.scipy.org/doc/numpy-1.11.0/numpy-user-1.11.0.pdf
