@@ -65,3 +65,9 @@ SCIPY AND NUMPY Manuals (Beefy) -
 https://docs.scipy.org/doc/scipy-0.13.0/scipy-ref.pdf
 https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf
 https://docs.scipy.org/doc/numpy-1.11.0/numpy-user-1.11.0.pdf
+
+
+Using Keras and TensorFlow for anomaly detection
+Create a deep learning neural network with Keras and TensorFlow
+https://developer.ibm.com/tutorials/iot-deep-learning-anomaly-detection-5/
+
