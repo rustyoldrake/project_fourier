@@ -5,7 +5,7 @@ Raw Materials and Work in Progress for FFT Fourier Transform Spectral Analysis o
 # Section 0 - GENERATE TEST Signal (WAV)
 generate_test_signal.py (tested OK)	
 
-https://github.com/rustyoldrake/project_fourier/blob/master/img/%20generate_test_signal.png
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/%20generate_test_signal.png)
 
 # Section 1 - ACQUIRE AND CLEAN/FILTER WAV 
 - (TBD)
