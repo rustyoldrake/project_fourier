@@ -31,8 +31,8 @@ generate_FFT_plot_PNG.py  (tested OK)
 
 # Section 3 - PROCESS FFT - GENERATE BIN SCORES
 generate_FFT_bin_score_text.py  (tested OK)	
-![alt text]()
-![alt text]()
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/bin_weight_output.png)
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/bin_weight_CSV_values_in_excel.png)
 
 # Section 4 - DELTA-DIFF - COMPARE TO PRIOR IF MATERIAL DIFFERENCE - TEST IF TRIGGER
 - (TBD)
