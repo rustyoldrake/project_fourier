@@ -1,6 +1,14 @@
 # project_fourier
 Raw Materials and Work in Progress for FFT Fourier Transform Spectral Analysis of Audio / VIbration on Raspberry PI
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/raspberry%20pis%20in%20sense%20mode.png)
 
+Fourier Transform Spectral Analysis Changes TIME DOMAIN into Frequency Domain:
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/time%20to%20frequency%20domain.png)
+
+Like the old graphics equalizers on stereo:
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/graphics%20equalizer%20stereo%20old.png)
+
+Below is an overview of how to Consume an Audio or sensor file (e.g. WAV file) data in time domain, analyze, and transform into a frequency domain.  We will also build some light logic in to determine if material change worth flagging from last sample.
 
 # Section 0 - GENERATE TEST Signal (WAV)
 generate_test_signal.py (tested OK)	
