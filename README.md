@@ -10,10 +10,7 @@ generate_test_signal.py (tested OK)
 # Section 1 - ACQUIRE AND CLEAN/FILTER WAV 
 - This will import WAV file, check OK, and clean up (e.g. low pass filter) if desired
 
-Source File for Filter Cleaner
 ![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/square_2000hz_3_seconds.PNG)
-
-After a low pass filter (starts to remove noise over about ~7KHZ
 ![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/square_2000hz_3_seconds_post_filter.PNG)
 
 Warning - the current filter code seems to modify general amplitude (need to work on this)
