@@ -10,6 +10,8 @@ Like the old graphics equalizers on stereo:
 
 Below is an overview of how to Consume an Audio or sensor file (e.g. WAV file) data in time domain, analyze, and transform into a frequency domain.  We will also build some light logic in to determine if material change worth flagging from last sample.
 
+![alt text](https://youtu.be/owpdE4hVfy8)
+
 # Section 0 - GENERATE TEST Signal (WAV)
 generate_test_signal.py (tested OK)	
 
