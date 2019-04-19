@@ -14,6 +14,11 @@ generate_test_signal.py (tested OK)
 # Section 2 - PROCESS FFT - GENERATE PNG PLOT
 generate_FFT_plot_PNG.py  (tested OK)	
 
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/sin_2000hz_3_seconds.PNG)
+
+![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/square_2000hz_3_seconds.PNG)
+
+
 # Section 3 - PROCESS FFT - GENERATE BIN SCORES
 generate_FFT_bin_score_text.py  (tested OK)	
 
