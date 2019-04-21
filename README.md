@@ -45,8 +45,13 @@ generate_FFT_bin_score_text.py  (tested OK)
 ![alt text](https://github.com/rustyoldrake/project_fourier/blob/master/img/bin_weight_CSV_values_in_excel.png)
 
 # Section 4 - DELTA-DIFF - COMPARE TO PRIOR IF MATERIAL DIFFERENCE - TEST IF TRIGGER
-- (TBD)
 - This is LOGIC to determin if 'trigger' fires - e.g. if more than 20% change in any bin value 
+
+Project Fourier - Testing Triggers (Function Generator)
+[![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/96orzRvhGrM/0.jpg)](https://www.youtube.com/watch?v=96orzRvhGrM)
+
+Project Fourier - Testing Motor Acoustics
+[![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/39hvj8N8qc4/0.jpg)](https://www.youtube.com/watch?v=39hvj8N8qc4)
 
 
 # Section 5 - COMPOSE & TRANSMIT PAYLOAD
@@ -70,4 +75,23 @@ https://docs.scipy.org/doc/numpy-1.11.0/numpy-user-1.11.0.pdf
 Using Keras and TensorFlow for anomaly detection
 Create a deep learning neural network with Keras and TensorFlow
 https://developer.ibm.com/tutorials/iot-deep-learning-anomaly-detection-5/
+
+RASPBERRY PI Localization for Test 
+speaker-test -t sine -f 440 -c 2 -s 1
+
+sudo apt-get install python3-numpy
+sudo apt-get install python3-matplotlib
+sudo apt-get install python3-scipy
+pip3 install pydub
+pip3 install pyplot
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=207058
+http://wiki.sunfounder.cc/index.php?title=To_use_USB_mini_microphone_on_Raspbian
+
+Record and Playback
+arecord -D plughw:1,0 -d 3 test.wav && aplay test.wav
+
+pi@raspberrypi:~/project_fourier $ lsusb 
+pi@raspberrypi:~/project_fourier $ arecord -l
+
 
