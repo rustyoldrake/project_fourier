@@ -53,18 +53,20 @@ generate_FFT_bin_score_text.py  (tested OK)
 
 YOUTUBE VIDEO:Part 2 - crude test to validate the FFT in code is working - and more importantly -that the TRIGGER mechanism for detecting changes to dominant frequencies (and signal levels) is firing
 [![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/96orzRvhGrM/0.jpg)](https://www.youtube.com/watch?v=96orzRvhGrM)
+https://www.youtube.com/watch?v=96orzRvhGrM
 
 ## Project Fourier - Testing Motor Acoustics
 YOUTUBE VIDEO: we are now listening to the array of motors and validating that the software which is performing at Fourier transform analysis and spectral analysis can pick up and trigger on material changes to the states of the motors in this case as we vary the voltage the dominant frequencies of the motors change and also as we interfere with the motors we can see the same effect triggering alert or action 
 [![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/39hvj8N8qc4/0.jpg)](https://www.youtube.com/watch?v=39hvj8N8qc4)
+https://www.youtube.com/watch?v=39hvj8N8qc4
 
 
 # Section 5 - COMPOSE & TRANSMIT PAYLOAD
 - (TBD)
-- Send information 
+- JSON 
+- Send information to Grafana / Cloud for display and alerting 
 
 
-  
   
   
 
