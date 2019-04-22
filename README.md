@@ -71,27 +71,31 @@ https://docs.scipy.org/doc/scipy-0.13.0/scipy-ref.pdf
 https://sites.engineering.ucsb.edu/~shell/che210d/numpy.pdf
 https://docs.scipy.org/doc/numpy-1.11.0/numpy-user-1.11.0.pdf
 
+## A Graduate Seminar Course at UC Berkeley (AY 250)
+ python-seminar/DataFiles_and_Notebooks/04_Interacting_with_the_World/4_audio.ipynb 
+https://github.com/profjsb/python-seminar/blob/master/DataFiles_and_Notebooks/04_Interacting_with_the_World/4_audio.ipynb
 
-Using Keras and TensorFlow for anomaly detection
+## Using Keras and TensorFlow for anomaly detection
 Create a deep learning neural network with Keras and TensorFlow
 https://developer.ibm.com/tutorials/iot-deep-learning-anomaly-detection-5/
 
-RASPBERRY PI Localization for Test 
-speaker-test -t sine -f 440 -c 2 -s 1
-
+## Install Packages
 sudo apt-get install python3-numpy
 sudo apt-get install python3-matplotlib
 sudo apt-get install python3-scipy
 pip3 install pydub
 pip3 install pyplot
 
+## USB Mic on PI
 https://www.raspberrypi.org/forums/viewtopic.php?t=207058
 http://wiki.sunfounder.cc/index.php?title=To_use_USB_mini_microphone_on_Raspbian
+$ lsusb 
+$ arecord -l
 
-Record and Playback
+## RASPBERRY PI Localization for Test 
+speaker-test -t sine -f 440 -c 2 -s 1
+
 arecord -D plughw:1,0 -d 3 test.wav && aplay test.wav
 
-pi@raspberrypi:~/project_fourier $ lsusb 
-pi@raspberrypi:~/project_fourier $ arecord -l
 
 
