@@ -47,10 +47,15 @@ generate_FFT_bin_score_text.py  (tested OK)
 # Section 4 - DELTA-DIFF - COMPARE TO PRIOR IF MATERIAL DIFFERENCE - TEST IF TRIGGER
 - This is LOGIC to determin if 'trigger' fires - e.g. if more than 20% change in any bin value 
 
-Project Fourier - Testing Triggers (Function Generator)
+## Project Fourier - Testing Triggers (Function Generator)
+
+### https://github.com/rustyoldrake/project_fourier/blob/master/project_fourier_event_detection_V1.py
+
+YOUTUBE VIDEO:Part 2 - crude test to validate the FFT in code is working - and more importantly -that the TRIGGER mechanism for detecting changes to dominant frequencies (and signal levels) is firing
 [![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/96orzRvhGrM/0.jpg)](https://www.youtube.com/watch?v=96orzRvhGrM)
 
-Project Fourier - Testing Motor Acoustics
+## Project Fourier - Testing Motor Acoustics
+YOUTUBE VIDEO: we are now listening to the array of motors and validating that the software which is performing at Fourier transform analysis and spectral analysis can pick up and trigger on material changes to the states of the motors in this case as we vary the voltage the dominant frequencies of the motors change and also as we interfere with the motors we can see the same effect triggering alert or action 
 [![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/39hvj8N8qc4/0.jpg)](https://www.youtube.com/watch?v=39hvj8N8qc4)
 
 
