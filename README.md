@@ -60,6 +60,10 @@ YOUTUBE VIDEO: we are now listening to the array of motors and validating that t
 [![YOUTUBE VIDEO (Raw)](https://img.youtube.com/vi/39hvj8N8qc4/0.jpg)](https://www.youtube.com/watch?v=39hvj8N8qc4)
 https://www.youtube.com/watch?v=39hvj8N8qc4
 
+##  UPDATE 2021 - PROJECT ELF
+Mixing 100Hz and 105Hz to heterodyne to  5Hz ELF Beat
+https://www.youtube.com/watch?v=2RspE8UE6gg
+
 
 # Section 5 - COMPOSE & TRANSMIT PAYLOAD
 - (TBD)
